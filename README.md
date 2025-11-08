@@ -2,7 +2,7 @@
 
 **Solo Project** desenvolvido no curso da [Scrimba](https://scrimba.com/), com o objetivo de praticar **HTML** e **CSS** na criação de um site de turismo fictício sobre Minas Gerais.
 
-🔗 **Veja o site publicado no Netlify:** [visit-minas.netlify.app](https://visitminas.netlify.app)
+🔗 **Veja o site publicado no Netlify:** [visitminas.netlify.app](https://visitminas.netlify.app)
 
 ---
 
