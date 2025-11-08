@@ -1,0 +1,107 @@
+body {
+  font-family: "Crimson Text", serif;
+  text-align: center;
+  margin: 0px;
+  background-color: #fefae0;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  background-image: url("img/puc.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 80px;
+  color: #fefae0;
+}
+
+#header-principal{
+  display: inline-block;
+  background-color: #204b2b;
+  padding: 0 5px 0 5px;
+  font-size: 25px;
+  box-shadow: 4px 4px #132a13;
+}
+
+#viagem{
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Crimson Text", serif;
+  font-weight: bold;
+  color: #fefae0;
+  background-color: #204b2b;
+  padding: 4px;
+  box-shadow: 2px 2px #132a13;
+}
+
+#viagem:hover{
+  background-color: #132a13;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.central{
+  margin: 50px 50px 50px 50px;
+}
+
+#header-central{
+  color: #204b2b;
+}
+
+.conteudo-central{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; 
+  gap: 50px;
+  color: #204b2b;
+}
+
+.images{
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  max-height: 200px;
+}
+
+.images:hover{
+  transform: scale(1.05);
+  transition: 0.2s;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.final{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  color: #204b2b;
+}
+
+#guide{
+  width: 300px;
+  max-width: 300px;
+  height: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+  border: 3px solid #132a13;
+}
+
+.final p {
+  max-width: 600px;      
+  text-align: justify;   
+  line-height: 1.5;      
+  font-size: 17px;       
+  margin: 15px 0 70px;      
+}
+
+footer a {
+  color: #132a13;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #ccd5ae; 
+}
